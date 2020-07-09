@@ -18,10 +18,10 @@ F0 00 00 00
 AND result: 00 00 00 00
 
 Left Shifts:
-- the most-significant bit is lost, and a 000 bit is inserted on the other end.
+- the most-significant bit is lost, and a 0 bit is inserted on the other end.
 
 Logical Right Shifts:
-- the least-significant bit is lost and a 000 is inserted on
+- the least-significant bit is lost and a 0 is inserted on the other end.
 
 Arithmetic shift:
 - the least-significant bit is lost and the most-significant bit is copied.
